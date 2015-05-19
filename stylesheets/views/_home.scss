@@ -1,0 +1,44 @@
+.container{
+	margin: 0px;
+	padding:0px;
+	width: 100%;
+}
+
+.navbar, .navbar-default{
+	margin: 0px;
+	padding: 0px;
+}
+
+.collapse, .navbar-collapse, .menu-izquierdo{
+	float: right;
+}
+
+.escudo{
+	margin-left: 10px;
+	width: 4px;
+}
+
+.name-universidad{
+	margin-left: 40%;
+}
+
+aside{
+	float: left;
+}
+
+.menu-izquierdo{
+	text-align: center;
+}
+
+.glyphicon, .glyphicon-home{
+	color: 000;
+	font-size: 40px;
+}
+
+section{
+	font-size: 40px;
+	width: 1274px;
+	float: left;
+	position: relative;
+	margin-top: 5%;
+}
