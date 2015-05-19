@@ -36,9 +36,20 @@ aside{
 }
 
 section{
-	font-size: 40px;
+	font-size: 14px;
 	width: 1274px;
 	float: left;
 	position: relative;
-	margin-top: 5%;
+}
+
+.row, .icons{
+	text-align: center;
+    margin-top: 7px;
+}
+
+.usuario img{
+	float: right;
+    margin-right: 45px;
+    border-radius: 50px;
+    margin-top: -4%;
 }
