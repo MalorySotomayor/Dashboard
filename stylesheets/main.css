@@ -5718,7 +5718,39 @@ section {
   margin: 0px; }
 
 .cinco {
-  margin-top: 7px;
+  margin-top: 10px;
   background-color: #FFF; }
+
+.pagos {
+  background-color: #333; }
+
+.prox, .venci {
+  color: #FFF;
+  padding: 0px; }
+
+.prox {
+  border-right: #FFF solid 2px; }
+
+.icon-pagos {
+  font-size: 20px;
+  top: 10px; }
+
+.vence, .desde {
+  background-color: #FFF;
+  padding: 0px; }
+
+.seis {
+  margin: 0px; }
+
+.vence {
+  border-right: #C3C1C1 solid 2px; }
+
+.reservas {
+  background-color: #333; }
+
+.fecha, .horados, .recursos, .campusdos {
+  color: #FFF;
+  padding: 0px;
+  margin: 0px; }
 
 /*# sourceMappingURL=main.css.map */
