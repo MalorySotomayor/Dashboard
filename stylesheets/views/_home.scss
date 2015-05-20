@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding:0px;
 	width: 100%;
+	border-bottom: #CFC5C5 solid 4px;
 }
 
 .navbar, .navbar-default{
@@ -31,11 +32,17 @@ aside{
 
 .menu-izquierdo{
 	text-align: center;
+	margin-top: 3px;
 }
 
 .glyphicon, .glyphicon-home{
 	color: 000;
 	font-size: 40px;
+}
+
+.nav-stacked > li {
+  float: none;
+  border-bottom: #CFC5C5 solid 2px;
 }
 
 section{
@@ -51,12 +58,22 @@ section{
     margin: 7px 0 0 0;
 }
 
+.segundo-menu{
+	border-bottom: #CFC5C5 solid 2px;
+}
+
 .usuario img{
 	float: right;
     margin-right: 45px;
     border-radius: 50px;
-    margin-top: -4%;
+    margin-top: -6%;
 }
+
+.usu-saludo{
+	text-align: right;
+	  margin-right: 14%;
+}
+
 
 .horario{
 	background-color: #333;
