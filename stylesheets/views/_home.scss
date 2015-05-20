@@ -1,0 +1,277 @@
+.container{
+	margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-bottom: #CFC5C5 solid 4px;
+    position: fixed;
+    z-index: 10;
+    background-color: #FFF;
+}
+
+.navbar, .navbar-default{
+	margin: 0px;
+	padding: 0px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+
+.collapse, .navbar-collapse, .menu-izquierdo{
+	float: right;
+}
+
+.escudo{
+	margin-left: 10px;
+	width: 4px;
+}
+
+.name-universidad{
+	margin-left: 40%;
+}
+
+aside{
+	float: left;
+}
+
+.menu-izquierdo{
+	text-align: center;
+    margin-top: 6px;
+    position: fixed;
+    z-index: 9;
+}
+
+.menu-mov{
+	position: relative;
+	float: right;
+}
+
+.glyphicon, .glyphicon-home{
+	color: #333;
+	font-size: 35px;
+}
+
+.nav-stacked > li {
+  float: none;
+  border-bottom: #CFC5C5 solid 2px;
+}
+
+section{
+	font-size: 14px;
+    width: 1290px;
+    float: left;
+    position: relative;
+    background-image: url(img/trama.png);
+    margin-left: 133px;
+}
+
+.row, .icons{
+	text-align: center;
+  	margin: 8px 0 0 0;
+}
+
+.info{
+	margin-top: 13%;
+}
+
+
+.segundo-menu{
+	border-bottom: #CFC5C5 solid 2px;
+    position: fixed;
+    z-index: 9;
+    background-color: #FFF;
+}
+
+.dropdown {
+  position: relative;
+  float: right;
+  margin-top: -5%;
+  width: 28%;
+  height: 88px;
+}
+
+.btn, .btn-default, .dropdown-toggle{
+	border-color: transparent;
+}
+
+
+.usuario img{
+	border-radius: 50px;
+    width: 76%;
+    margin: 5px 0 0 0;
+}
+
+.usu-saludo{
+	text-align: right;
+	margin-right: 19%;
+}
+
+
+.horario{
+	background-color: #333;
+}
+
+.hora, .campus, .curso, .salon{
+	color: #FFF;
+}
+
+.campus{
+	padding: 0 0 0 1px;
+}
+
+.curso{
+	padding: 0 0 0 1px;
+}
+
+.salon{
+	padding:0px;
+}
+
+.mo, .eme, .am, .manu{
+	padding: 0px;
+	margin: 0px;
+}
+
+.uno{
+	margin: 0px;
+	background-color: #FFF;
+}
+
+.dos{
+	margin-top: 2px;
+	background-color: #FFF;
+}
+
+.tres{
+	margin-top: 2px;
+	background-color: #FFF;
+	height: 40px;
+}
+
+.cursos{
+	background-color: #333;
+}
+
+.cursos, .faltas, .promedio{
+	color: #FFF;
+	padding: 0px;
+}
+
+.cuatro{
+	margin: 0px;
+	background-color: #FFF;
+}
+
+.pro, .medio, .prome{
+	padding: 0px;
+	margin: 0px;
+}
+
+.cinco{
+	margin-top: 12px;
+	background-color: #FFF;
+}
+
+.pagos{
+	background-color: #333;
+}
+
+.prox, .venci{
+	color: #FFF;
+	padding: 0px;
+}
+
+.prox{
+	border-right: #FFF solid 2px;
+}
+
+.icon-pagos{
+	font-size: 20px;
+	top:10px;
+}
+
+.vence, .desde{
+	background-color: #FFF;
+	padding:0px;
+}
+
+.siete{
+	margin:0px;
+}
+
+.vence{
+	border-right: #C3C1C1 solid 2px;
+}
+
+.reservas{
+	background-color: #333;
+}
+
+.fecha, .horados, .recursos, .campusdos{
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+}
+
+.reserv-uno{
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFF;
+}
+
+.fechados, .amdos, .compu, .modos{
+	padding: 0px;
+	margin: 0px;
+}
+
+.reserv-dos{
+	padding: 0px;
+	margin-top:10px;
+	background-color: #FFF;
+}
+
+.seis{
+	margin-top: 10px;
+	background-color: #FFF;
+	height: 40px;
+}
+
+.noticia{
+	background-color: #333;
+}
+
+.noti-fecha{
+	color: #FFF;
+	margin:0px;
+	padding: 5px;
+}
+
+.notic-padding{
+	margin:37px 0 37px;
+}
+.contend-noti{
+	background-color: #FFF;
+	padding: 22px 20 22px;
+    text-align: left;
+}
+
+.concierto{
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+.next{
+	font-size: 20px;
+	margin-right: 28px;
+}
+
+.bolsa{
+	background-color: #FFF;
+	padding: 9px 20 9px;
+    text-align: left;
+}
+
+.insitum{
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
