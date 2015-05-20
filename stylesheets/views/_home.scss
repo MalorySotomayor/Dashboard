@@ -1,8 +1,11 @@
 .container{
 	margin: 0px;
-	padding:0px;
-	width: 100%;
-	border-bottom: #CFC5C5 solid 4px;
+    padding: 0px;
+    width: 100%;
+    border-bottom: #CFC5C5 solid 4px;
+    position: fixed;
+    z-index: 10;
+    background-color: #FFF;
 }
 
 .navbar, .navbar-default{
@@ -32,7 +35,14 @@ aside{
 
 .menu-izquierdo{
 	text-align: center;
-	margin-top: 6px;
+    margin-top: 6px;
+    position: fixed;
+    z-index: 9;
+}
+
+.menu-mov{
+	position: relative;
+	float: right;
 }
 
 .glyphicon, .glyphicon-home{
@@ -47,31 +57,52 @@ aside{
 
 section{
 	font-size: 14px;
-	width: 1290px;
-	float: left;
-	position: relative;
-	background-image: url(img/trama.png);
+    width: 1290px;
+    float: left;
+    position: relative;
+    background-image: url(img/trama.png);
+    margin-left: 133px;
 }
 
 .row, .icons{
 	text-align: center;
-    margin: 6px 0 0 0;
+  	margin: 8px 0 0 0;
 }
+
+.info{
+	margin-top: 13%;
+}
+
 
 .segundo-menu{
 	border-bottom: #CFC5C5 solid 2px;
+    position: fixed;
+    z-index: 9;
+    background-color: #FFF;
 }
 
+.dropdown {
+  position: relative;
+  float: right;
+  margin-top: -5%;
+  width: 28%;
+  height: 88px;
+}
+
+.btn, .btn-default, .dropdown-toggle{
+	border-color: transparent;
+}
+
+
 .usuario img{
-	float: right;
-    margin-right: 45px;
-    border-radius: 50px;
-    margin-top: -6%;
+	border-radius: 50px;
+    width: 76%;
+    margin: 5px 0 0 0;
 }
 
 .usu-saludo{
 	text-align: right;
-	  margin-right: 14%;
+	margin-right: 19%;
 }
 
 

@@ -21,7 +21,7 @@
 				  	</div>
 				  </div>
 				  <!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse menu-izquierdo">
+					<div class="collapse navbar-collapse menu-izquierdo menu-mov">
 				    <div class="navbar-header ">
 				    	<div class="">
 				     	<a class="navbar-brand" href="#">PORTAL</a>
@@ -102,8 +102,18 @@
   							<p>BUSCAR</p></a>
 						</div>
 						<div class="usuario">
-							<h2 class="usu-saludo">Hola Malory</h2>
-							<img src="stylesheets/img/melo.jpg">
+							<h3 class="usu-saludo">Hola Malory</h3>
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+									<img src="stylesheets/img/melo.jpg">
+								</button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">MI PERFIL</a></li>
+								  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CAMBIAR A DOCENTE</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">VER TUTORIAL</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">CERRAR SESIÓN</a></li>
+								</ul>
+							</div>	
 						</div>
 					</div>	
 				</div>
@@ -527,8 +537,7 @@
 		</section>
 
 
-
-
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	</body>
 </html>
