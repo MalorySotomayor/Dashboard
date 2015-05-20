@@ -7,7 +7,10 @@
 .navbar, .navbar-default{
 	margin: 0px;
 	padding: 0px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
 }
+
 
 .collapse, .navbar-collapse, .menu-izquierdo{
 	float: right;
@@ -37,14 +40,15 @@ aside{
 
 section{
 	font-size: 14px;
-	width: 1274px;
+	width: 1290px;
 	float: left;
 	position: relative;
+	background-image: url(img/trama.png);
 }
 
 .row, .icons{
 	text-align: center;
-    margin-top: 7px;
+    margin: 7px 0 0 0;
 }
 
 .usuario img{
@@ -52,4 +56,69 @@ section{
     margin-right: 45px;
     border-radius: 50px;
     margin-top: -4%;
+}
+
+.horario{
+	background-color: #333;
+}
+
+.hora, .campus, .curso, .salon{
+	color: #FFF;
+}
+
+.campus{
+	padding: 0 0 0 1px;
+}
+
+.curso{
+	padding: 0 0 0 1px;
+}
+
+.salon{
+	padding:0px;
+}
+
+.mo, .eme, .am, .manu{
+	padding: 0px;
+	margin: 0px;
+}
+
+.uno{
+	margin: 0px;
+	background-color: #FFF;
+}
+
+.dos{
+	margin-top: 2px;
+	background-color: #FFF;
+}
+
+.tres{
+	margin-top: 2px;
+	background-color: #FFF;
+	height: 40px;
+}
+
+.cursos{
+	background-color: #333;
+}
+
+.cursos, .faltas, .promedio{
+	color: #FFF;
+	padding: 0px;
+}
+
+.cuatro{
+	margin: 0px;
+	background-color: #FFF;
+}
+
+.pro, .medio, .prome{
+	padding: 0px;
+	margin: 0px;
+}
+
+.cinco{
+	margin-top: 7px;
+	background-color: #FFF;
 }
