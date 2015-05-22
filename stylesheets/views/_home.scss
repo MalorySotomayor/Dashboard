@@ -2,7 +2,7 @@
 	margin: 0px;
     padding: 0px;
     width: 100%;
-    border-bottom: #CFC5C5 solid 4px;
+    border-bottom: #797272 solid 3px;
     position: fixed;
     z-index: 10;
     background-color: #FFF;
@@ -70,7 +70,11 @@ section{
 }
 
 .info{
-	margin-top: 13%;
+	margin-top: 6%;
+}
+
+.title-left{
+	text-align: left;
 }
 
 
@@ -89,10 +93,21 @@ section{
   height: 88px;
 }
 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: red;
+}
+
 .btn, .btn-default, .dropdown-toggle{
 	border-color: transparent;
 }
 
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
 
 .usuario img{
 	border-radius: 50px;
@@ -110,25 +125,50 @@ section{
 	background-color: #333;
 }
 
-.hora, .campus, .curso, .salon{
+.hora{
 	color: #FFF;
+	border-right: #DDD8D8 solid 2px;
 }
 
 .campus{
 	padding: 0 0 0 1px;
+	color: #FFF;
+	border-right: #DDD8D8 solid 2px;
 }
 
 .curso{
 	padding: 0 0 0 1px;
+	color: #FFF;
+	border-right: #DDD8D8 solid 2px;
 }
 
 .salon{
 	padding:0px;
+	color: #FFF;
 }
 
-.mo, .eme, .am, .manu{
+.mo{
 	padding: 0px;
 	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+}
+
+.eme{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.am{
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+}
+
+.manu{
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
 }
 
 .uno{
@@ -148,10 +188,19 @@ section{
 }
 
 .cursos{
+	color: #FFF;
+	padding: 0px;
 	background-color: #333;
+	border-right: #DDD8D8 solid 2px;
 }
 
-.cursos, .faltas, .promedio{
+.faltas{
+	color: #FFF;
+	padding: 0px;
+	border-right: #DDD8D8 solid 2px;
+}
+
+.promedio{
 	color: #FFF;
 	padding: 0px;
 }
@@ -161,13 +210,35 @@ section{
 	background-color: #FFF;
 }
 
-.pro, .medio, .prome{
+.duo-ocultar{
+	display: none;
+	cursor: pointer;
+}
+
+.ojito{
+	font-size: 25px;
+  	margin-top: 10px;
+  	cursor: pointer;
+}
+
+.pro{
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+} 
+.medio{
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+} 
+
+.prome{
 	padding: 0px;
 	margin: 0px;
 }
 
 .cinco{
-	margin-top: 12px;
+	margin-top: 13px;
 	background-color: #FFF;
 }
 
@@ -196,7 +267,26 @@ section{
 
 .siete{
 	margin:0px;
+	background-color: #FFF;
+  	height: 17%;
 }
+
+.notic-padding{
+	padding-bottom: 7px;
+}
+
+.ojitodos{
+	font-size: 25px;
+  	margin:30px 0px 10px 0px;
+  	cursor: pointer;
+}
+
+.duodos-ocultar{
+	display: none;
+	cursor: pointer;
+	padding-top: 3%;
+}
+
 
 .vence{
 	border-right: #C3C1C1 solid 2px;
@@ -206,7 +296,27 @@ section{
 	background-color: #333;
 }
 
-.fecha, .horados, .recursos, .campusdos{
+.fecha{
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+}
+
+.horados{
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+} 
+.recursos{
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+}
+
+.campusdos{
 	color: #FFF;
 	padding: 0px;
 	margin: 0px;
@@ -218,7 +328,24 @@ section{
 	background-color: #FFF;
 }
 
-.fechados, .amdos, .compu, .modos{
+.fechados{
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+}
+
+.amdos{
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+} 
+
+.compu{
+	padding: 0px;
+	margin: 0px;
+	border-right: #DDD8D8 solid 2px;
+}
+.modos{
 	padding: 0px;
 	margin: 0px;
 }
@@ -242,15 +369,14 @@ section{
 .noti-fecha{
 	color: #FFF;
 	margin:0px;
-	padding: 5px;
+	padding: 2%;
+	text-align: center;
 }
 
-.notic-padding{
-	margin:37px 0 37px;
-}
+
 .contend-noti{
 	background-color: #FFF;
-	padding: 22px 20 22px;
+	padding: 26px 20px 26px;
     text-align: left;
 }
 
